@@ -118,6 +118,7 @@ TextView textView ;
     public void Squareroot (View view) {first=esmaeelEditText.getText().toString();
         String txt = esmaeelEditText.getText().toString() + "√";operation ="s";
         textView.setText(txt); esmaeelEditText.setText("");
+
     }
     public void Percent (View view) {operation ="%";first=esmaeelEditText.getText().toString();
         String txt = esmaeelEditText.getText().toString() + "%";
